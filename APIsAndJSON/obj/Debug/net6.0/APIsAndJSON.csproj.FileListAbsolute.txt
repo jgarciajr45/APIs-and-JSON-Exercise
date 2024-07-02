@@ -1,0 +1,17 @@
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net6.0/APIsAndJSON
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net6.0/APIsAndJSON.deps.json
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net6.0/APIsAndJSON.runtimeconfig.json
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net6.0/APIsAndJSON.dll
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net6.0/APIsAndJSON.pdb
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.csproj.AssemblyReference.cache
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.AssemblyInfoInputs.cache
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.AssemblyInfo.cs
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.csproj.CoreCompileInputs.cache
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.csproj.CopyComplete
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.dll
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/refint/APIsAndJSON.dll
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.pdb
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/APIsAndJSON.genruntimeconfig.cache
+/Users/jesusgarcia/Desktop/Repo/APIs-and-JSON-Exercise/APIsAndJSON/obj/Debug/net6.0/ref/APIsAndJSON.dll
