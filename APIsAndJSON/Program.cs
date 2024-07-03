@@ -6,33 +6,18 @@ namespace APIsAndJSON
     {
         static void Main(string[] args)
         {
-
-            string ronSwansonUrl = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
-            string kanyeWestUrl = "https://api.kanye.rest";
+            string openWeatherMapApiKey = "9e0f7bbf757bf28622d9998c5c41edf6";
+            string city = "Redwood City"; 
             int numberOfQuotes = 5;
 
-            HttpClient client = new HttpClient();
+            OpenWeatherMapApi weatherApi = new OpenWeatherMapApi(openWeatherMapApiKey);
+            RonVsKanyeApi quotesApi = new RonVsKanyeApi();
 
-            for (int i = 0; i < numberOfQuotes; i++)
-            {
-                // Get Ron Swanson quote
-                var ronSwansonResponse = client.GetStringAsync(ronSwansonUrl).Result;
-                JArray ronSwansonQuoteArray = JArray.Parse(ronSwansonResponse);
-                string ronSwansonQuote = ronSwansonQuoteArray[0].ToString();
+            Console.WriteLine("Fetching weather information...");
+            weatherApi.GetWeather(city);
 
-                // Get Kanye West quote
-                var kanyeWestResponse = client.GetStringAsync(kanyeWestUrl).Result;
-                JObject kanyeWestQuoteObject = JObject.Parse(kanyeWestResponse);
-                string kanyeWestQuote = kanyeWestQuoteObject["quote"].ToString();
-
-                // Print the quotes
-                Console.WriteLine($"Ron Swanson: {ronSwansonQuote}");
-                Console.WriteLine($"Kanye West: {kanyeWestQuote}");
-                Console.WriteLine();
-
-            }
-
-
+            Console.WriteLine("Generating quotes...");
+            quotesApi.GenerateQuotes(numberOfQuotes);
         }
     }
 }
